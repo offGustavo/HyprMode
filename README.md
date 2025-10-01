@@ -49,6 +49,14 @@ git clone https://github.com/offGustavo/HyprVim
    git merge upstream/main
    ```
 
+#### Source in your config file
+
+```bash
+source = <path-to-the-file>
+# Example for any mode
+# source = $HOME/.config/hypr/plugins/HyprMode/*.conf
+```
+
 ---
 
 ## 🔀 Choosing a Mode
@@ -62,12 +70,9 @@ git switch vim-mode
 # Emacs keybindings
 git switch emacs-mode
 
-# Helix motions (WIP)
+# Helix motions
 git switch helix-mode
 ```
-
-Then copy the configuration snippets into your Hyprland config.
-
 ---
 
 ## ⚠️ Limitations
